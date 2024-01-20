@@ -1,0 +1,29 @@
+<view class="main">
+    <view class="banner">
+        <t-image src="/image/list1.png"></t-image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <t-image src="/image/s4.png"></t-image>
+                <view class="newest-text"><text>榨菜 100g</text></view>
+                <view class="newest-text"><text>￥ 4.99</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <t-image src="/image/s5.png"></t-image>
+                <view class="newest-text"><text>花生米 200g</text></view>
+                <view class="newest-text"><text>￥ 3.99</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <t-image src="/image/s6.png"></t-image>
+                <view class="newest-text"><text>黄瓜 500g</text></view>
+                <view class="newest-text"><text>￥ 6.00</text></view>
+            </navigator>
+        </view>
+    </view>
+</view>

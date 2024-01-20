@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button"
+  },
+  "navigationBarTitleText": "分类",
+  "backgroundColor": "#eeeeee",
+  "enablePullDownRefresh": false
+}

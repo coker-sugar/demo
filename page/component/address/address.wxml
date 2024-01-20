@@ -1,0 +1,10 @@
+<view class="main">
+    <view class="form-box">
+        <form bindsubmit="formSubmit">
+            <t-input value="{{address.name}}" placeholder="姓名" bind:change="bindName"/>
+            <t-input type="number" value="{{address.phone}}" placeholder="电话号码" bind:change="bindPhone" />
+            <t-input value="{{address.detail}}" placeholder="详细地址" bind:change="bindDetail"/>
+            <t-button theme="light" bindtap="formSubmit">保存</t-button>
+        </form>
+    </view>
+</view>
